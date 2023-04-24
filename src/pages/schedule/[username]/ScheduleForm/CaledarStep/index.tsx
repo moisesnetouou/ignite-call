@@ -8,7 +8,7 @@ import {
 } from './styles'
 
 export function CaledarStep() {
-  const isDateSelected = true
+  const isDateSelected = false
 
   return (
     <Container isTimePickerOpen={isDateSelected}>
