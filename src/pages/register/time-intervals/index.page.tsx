@@ -150,6 +150,7 @@ export default function TimeIntervals() {
 
                   <IntervalInputs>
                     <TextInput
+                      // @ts-ignore
                       size="sm"
                       type="time"
                       step={60}
@@ -157,6 +158,7 @@ export default function TimeIntervals() {
                       {...register(`intervals.${index}.startTime`)}
                     ></TextInput>
                     <TextInput
+                      // @ts-ignore
                       size="sm"
                       type="time"
                       step={60}
